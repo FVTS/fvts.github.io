@@ -190,7 +190,10 @@ td {
 	top: 0;
 	width: 390px;
 }
-.event div.event_location { right: 0; }
+.event div.event_location {
+    max-width: 130px;
+    right: 0;
+}
 
 
 #left, #right, #full {
