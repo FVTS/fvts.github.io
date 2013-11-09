@@ -31,7 +31,7 @@ h2, h3 {
 	color:#000000;
 	font-size:12px;
 	margin: 30px 0 0 0;
-	text-shadow: 0 1px 1px #bbbbbb;
+	text-shadow: 1px 1px 4px #bbbbbb;
 }
 	h3#subtitle {
 		margin-top: 3px;
@@ -114,11 +114,12 @@ td {
 				/*top: 0;*/
 			/*}*/
 
-#logo_w1,#logo_w2 {
-	font-size: 24px;
-	font-style:italic;
+#logo_w1 {
+	font-family: Copperplate, 'Copperplate Gothic Light', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 26px;
+    font-weight: lighter;
 	color:#FFFFFF;
-	text-shadow: 0 2px 2px #ccc;
+	/*text-shadow: 0 2px 2px #ccc;*/
 	position:absolute;
 }
 #logo_w1 {
@@ -322,7 +323,7 @@ td {
 	color: #fff;
 	padding: 20px 0px;
 	text-align:center;
-	text-shadow: 0px 1px 3px #bbb;
+	text-shadow: 1px 1px 4px #bbb;
 	width:717px;
 }
 	#footer a { color: #fff; }
