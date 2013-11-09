@@ -230,6 +230,7 @@ td {
 	#right .event_pic {
 		float: left;
 		margin-right: 5px;
+		margin-bottom: 5px;
 	}
 	#right img { float: right; }
 	#right a, #full a {
