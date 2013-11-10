@@ -22,7 +22,10 @@ To that end, the Fox Valley Theological Society is hosting discussion forums on 
 
 This Site
 ---------
-This site is created by Kevin Gustavson using [Jekyll][jekyll] and hosted on [Github Pages][pages].
+This site is created by [Kevin Gustavson][kevin] using [Jekyll][jekyll] and hosted on [Github Pages][pages].
+Find us at [FVTS.net][fvts]
 
+[fvts]: http://fvts.net
 [jekyll]: http://jekyllrb.com
 [pages]: http://pages.github.com
+[kevin]: http://kevingustavson.info
