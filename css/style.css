@@ -173,7 +173,7 @@ td {
 	}
 
 .home_date, .sidebar_date, .event_date { display: none }
-#left .home_date { display: inline; }
+#left .home_date { display: inline; font-weight: bold }
 #right .sidebar_date { display: inline; }
 #full .event_date { display: inline; }
 #full .full_address { display: none; }
