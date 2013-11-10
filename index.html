@@ -1,6 +1,9 @@
 ---
 layout: default
-title: Do Some People Really Believe a Dead Man Came Back to Life?
+title: Is God Dead?
+subtitle: A Critical Reasseessment of Friedrich Nietzsche's Famous Dictum
+speaker: Nicholas Piotrowski
+speaker_image: images/Nicholas.jpg
 ---
 
 <!--
@@ -14,77 +17,38 @@ title: Do Some People Really Believe a Dead Man Came Back to Life?
 </div>
 -->
 
+{% assign post = site.posts[0] %}
+
 <div id="left">
   <h2>{{post.title}}</h2>
-  <h3 id='subtitle'>Join us for an Easter discussion: How have different traditions understood the story of the resurrection of Jesus of Nazareth?</h3>
-  <h4 class="speaker">
-  
-  Speaker:
-  
-  Nicholas Piotrowski
-  </h4>
+  <h3 id='subtitle'>{{post.subtitle}}</h3>
+
+  <h4 class="speaker">Speaker: {{post.speaker}}</h4>
 
   <div class="event_pic">
     <img src="images/empty-tomb.png" class="event_pic" title="Resurrection?" alt="Resurrection?">
   </div>
 
   <div class="event_description">
-    <p>
-      Christians have been celebrating Good Friday and Easter for
-      nearly 2,000 years.  But why?  That Jesus of Nazareth was
-      executed is a given, but what does the Easter holiday celebrate?
-      Was Jesus really raised from the dead?  Was that even the message
-      first Christians sought to spread?  Or did they know, even then,
-      that this was a metaphorical tale?  How has the story been
-      understood since those first days of the Christian movement?
-      Join us as we consider how different traditions have historically
-      understood the story of the resurrection of Jesus of Nazareth.
-      All are welcome!
-    </p>
+    <p>{{post.description}}</p>
   </div>
 
   <div class="event_location">
     <span class="when_where">Location and Time</span>
     <br/>
-    <span class="home_date">
-      Saturday,
-      April 7,
-      10:00 - 11:30am
-    </span><br/>
-      Indianapolis Central Library<br/>
-    <span class="full_address">
-      40 E. St. Clair Street<br/>
-      Indianapolis,
-      Indiana,
-      46204
-    </span>
+    <span class="home_date">{{post.long_date}}</span><br/>
+    {{post.location}}<br/>
+    <span class="full_address">{{post.address}}</span>
     <span>
-      <a href="http://maps.google.com/maps?q=40+E.+St.+Clair+St.,+Indianapolis,+IN+46204]" alt="Map">Map</a>
+        <a href="{{post.map}}" target="_blank" alt="Map">Map</a>
     </span>
-    <p id="location_disclaimer">This program is not sponsored by the Indianapolis Public Library.</p>
+    <p id="location_disclaimer">{{post.disclaimer}}</p>
   </div>
   <p style="clear: both;" />
 
   <div id="speaker">
     <h3>Our Speaker</h3>
-    <img alt="Nicholas Piotrowski" title="Nicholas Piotrowski" src="images/Nicholas.jpg"/>
-    <span class="speaker">Nicholas Piotrowski</span>
-    <span class="bio">
-      Nicholas is a resident of Lawrence and a professor at Crossroads
-      Bible College. He earned his PhD at Wheaton College where he studied
-      the way 1st century communities used sacred traditions to form their
-      self-identity and navigate their cultural milieu.  This upcoming
-      talk and discussion will revolve around only a slightly different
-      topic. At the end of the 19th century Friedrich Nietzsche also used
-      religious texts to give shape to the burgeoning postmodern world
-      when he proclaimed that “God is dead.” Western thinkers in every
-      discipline from political theory to the fine arts have taken up
-      this “death of God” motif throughout the 20th century. Nicholas has
-      observed, however, that what Nietzsche specifically meant has been
-      lost in the intervening years. It seems time, therefore, to reevaluate
-      Nietzsche’s famous pronouncement in the light of more than a century’s
-      worth of retrospect. Join us on January 18th at 10:30am at the
-      Lawrence Public Library for a lecture and open discussion/Q&amp;A as
-      we consider what it means that “God is dead.”
-    </span>
+    <img alt="{{post.speaker}}" title="{{post.speaker}}" src="{{post.speaker_image}}"/>
+    <p class="speaker">{{post.speaker}}</p>
+    <span class="bio">{{post.bio}}</span>
   </div>
