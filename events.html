@@ -2,14 +2,43 @@
 layout: full
 ---
 
+{% assign current = site.posts[0] %}
+
 <div id="full">
   <div id="upcoming_events">
     <h1>Upcoming Events</h1>
 
     
-      <div class="event">
+<div class="event">
+  <h2 class="title">{{current.title}}</h2>
+  <h3 class="subtitle">{{current.subtitle}}</h3>
+
+  <h4 class="speaker">Speaker: {{current.speaker}}</h4>
+
+  <div class="event_pic">
+      <img src="{{current.event_image}}">
+  </div>
+
+  <div class="event_description">{{current.description}}</div>
+
+  <div class="event_location">
+    <span class="when_where">Location and Time</span><br/>
+    <span class="event_date">{{current.short_date}}<br/>
+        {{current.location}}
+    </span>
+  </div>
+  <p style="clear: both;" />
+</div>
+
+    
+ </div>
+
+  <div id="previous_events">
+    <h1>Previous Events</h1>
+
+<div class="event">
   <h2 class="title">Do Some People Really Believe a Dead Man Came Back to Life?</h2>
-  <h3 class="subtitle">Join us for an Easter discussion: How have different traditions understood the story of the resurrection of Jesus of Nazareth?</h3>
+  <h3 class="subtitle">How have different traditions understood the story of the resurrection of Jesus of Nazareth?</h3>
 
   <h4 class="speaker">
     
@@ -38,11 +67,6 @@ layout: full
   <p style="clear: both;" />
 </div>
 
-    
- </div>
-
-  <div id="previous_events">
-    <h1>Previous Events</h1>
 
     
       <div class="event">
