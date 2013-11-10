@@ -19,36 +19,69 @@ speaker_image: images/Nicholas.jpg
 
 {% assign post = site.posts[0] %}
 
-<div id="left">
-  <h2>{{post.title}}</h2>
-  <h3 id='subtitle'>{{post.subtitle}}</h3>
+<div id="content">
+  <div id="left">
+    <h2>{{post.title}}</h2>
+    <h3 id='subtitle'>{{post.subtitle}}</h3>
 
-  <h4 class="speaker">Speaker: {{post.speaker}}</h4>
+    <h4 class="speaker">Speaker: {{post.speaker}}</h4>
 
-  <div class="event_pic">
-    <img src="images/empty-tomb.png" class="event_pic" title="Resurrection?" alt="Resurrection?">
+    <div class="event_pic">
+        <img src="{{post.event_image}}" class="event_pic">
+    </div>
+
+    <div class="event_description">
+        <p>{{post.description}}</p>
+    </div>
+
+    <div class="event_location">
+        <span class="when_where">Location and Time</span>
+        <br/>
+        <span class="home_date">{{post.long_date}}</span><br/>
+        {{post.location}}<br/>
+        <span class="full_address">{{post.address}}</span>
+        <span>
+            <a href="{{post.map}}" target="_blank" alt="Map">Map</a>
+        </span>
+        <p id="location_disclaimer">{{post.disclaimer}}</p>
+    </div>
+    <p style="clear: both;" />
+
+    <div id="speaker">
+        <h3>Our Speaker</h3>
+        <img alt="{{post.speaker}}" title="{{post.speaker}}" src="{{post.speaker_image}}"/>
+        <p class="speaker">{{post.speaker}}</p>
+        <span class="bio">{{post.bio}}</span>
+    </div>
   </div>
 
-  <div class="event_description">
-    <p>{{post.description}}</p>
-  </div>
+  <div id="right">
+    <h3>Upcoming Events</h3>
 
-  <div class="event_location">
-    <span class="when_where">Location and Time</span>
-    <br/>
-    <span class="home_date">{{post.long_date}}</span><br/>
-    {{post.location}}<br/>
-    <span class="full_address">{{post.address}}</span>
-    <span>
-        <a href="{{post.map}}" target="_blank" alt="Map">Map</a>
-    </span>
-    <p id="location_disclaimer">{{post.disclaimer}}</p>
-  </div>
-  <p style="clear: both;" />
+    <table>
+      <tbody>
 
-  <div id="speaker">
-    <h3>Our Speaker</h3>
-    <img alt="{{post.speaker}}" title="{{post.speaker}}" src="{{post.speaker_image}}"/>
-    <p class="speaker">{{post.speaker}}</p>
-    <span class="bio">{{post.bio}}</span>
+        
+          <tr>
+    <td class="event">
+      <a href="events.html">
+          <img class="event_pic" src="{{post.event_image}}">
+      </a>
+
+      <a href="events.html">{{post.title}}</a>
+      <br>
+      <span class="time">{{post.short_date}}</span>
+      <br>
+      <br>
+    </td>
+  </tr>
+
+        
+
+      <tr>
+        <td>To receive event announcements send an email to <a href="mailto:info@fvts.net?subject=Send%20me%20email%20announcements">info@fvts.net</a>.</td>
+      </tr>
+    </tbody></table>
+
+    <a id="follow_us" title="Fox Valley Theological Society" href="http://www.facebook.com/home.php?#%21/group.php?gid=105275896168392&amp;ref=ts"><img src="images/facebook.png"></a>
   </div>
