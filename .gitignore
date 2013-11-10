@@ -1,4 +1,6 @@
 _site/
 _originals/
+css/
+.sass-cache/
 .DS_Store
 .ruby-version
