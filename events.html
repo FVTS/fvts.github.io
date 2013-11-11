@@ -36,69 +36,56 @@ layout: full
   <div id="previous_events">
     <h1>Previous Events</h1>
 
-<div class="event">
-  <h2 class="title">Do Some People Really Believe a Dead Man Came Back to Life?</h2>
-  <h3 class="subtitle">How have different traditions understood the story of the resurrection of Jesus of Nazareth?</h3>
+    {% for post in site.posts %}{% if forloop.index > 1 %}
 
-  <h4 class="speaker">
-    
-      Speaker:
-    
-    Nicholas Piotrowski
-  </h4>
-  <br/>
+    <div class="event">
+      <h2 class="title">{{post.title}}</h2>
+      <h3 class="subtitle">{{post.subtitle}}</h3>
 
-  <div class="event_pic">
-    <img alt="Resurrection?" alt="Resurrection?" src="images/empty-tomb.png">
-  </div>
+      <h4 class="speaker">Speaker: {{post.speaker}}</h4>
 
-  <div class="event_description">Christians have been celebrating Good Friday and Easter for nearly 2,000 years.  But why?  That Jesus of Nazareth was executed is a given, but what does the Easter holiday celebrate?  Was Jesus really raised from the dead?  Was that even the message first Christians sought to spread?  Or did they know, even then, that this was a metaphorical tale?  How has the story been understood since those first days of the Christian movement?  Join us as we consider how different traditions have historically understood the story of the resurrection of Jesus of Nazareth. All are welcome!
-</div>
+      <div class="event_pic">
+          <img src="{{post.event_image}}">
+      </div>
 
-  <div class="event_location">
-    <span class="when_where">Location and Time</span><br/>
-    <span class="event_date">
-      April 7,
-      2012<br/>
-      10:00 - 11:30am<br/>
-      Indianapolis Central Library
-    </span>
-  </div>
-  <p style="clear: both;" />
-</div>
+      <div class="event_description">{{post.description}}</div>
 
+      <div class="event_location">
+        <span class="when_where">Location and Time</span><br/>
+        <span class="event_date">{{post.short_date}}<br/>
+            {{post.location}}
+        </span>
+      </div>
+      <p style="clear: both;" />
+    </div>
 
-    
+    {% endif %}{% endfor %}
+
       <div class="event">
-  <h2 class="title">Says Who?</h2>
-  <h3 class="subtitle">Can we find truth in a pluralistic age?</h3>
+        <h2 class="title">Says Who?</h2>
+        <h3 class="subtitle">Can we find truth in a pluralistic age?</h3>
 
-  <h4 class="speaker">
-    
-      Guest speaker:
-    
-    Justin Taylor
-  </h4>
-  <br/>
+        <h4 class="speaker">Guest speaker: Justin Taylor</h4>
+        <br/>
 
-  <div class="event_pic">
-    <img alt="Find Truth?" alt="Find Truth?" src="images/find_truth.png">
-  </div>
+        <div class="event_pic">
+          <img alt="Find Truth?" alt="Find Truth?" src="images/find_truth.png">
+        </div>
 
-  <div class="event_description">Twenty-first century American culture is comprised of an innumerable collection of subcultures, all set side by side right next to each other. In a given day we all rub shoulders with any number of these subcultures—each one with a different set of values, ethics, goals, and competing claims on what is true. But who says what is true? Is there any way to tell who has the truth? Does anyone have the truth? Does truth exist? Is truth accessible to us? Join us as we consider “What is truth” in a pluralistic age. All are welcome!
-</div>
+        <div class="event_description">Twenty-first century American culture is comprised of an innumerable collection of subcultures, all set side by side right next to each other. In a given day we all rub shoulders with any number of these subcultures—each one with a different set of values, ethics, goals, and competing claims on what is true. But who says what is true? Is there any way to tell who has the truth? Does anyone have the truth? Does truth exist? Is truth accessible to us? Join us as we consider “What is truth” in a pluralistic age. All are welcome!
+      </div>
 
-  <div class="event_location">
-    <span class="when_where">Location and Time</span><br/>
-    <span class="event_date">
-      May 21,
-      2011<br/>
-      10:00 - Noon<br/>
-      Batavia Public Library
-    </span>
-  </div>
-  <p style="clear: both;" />
-</div>
+        <div class="event_location">
+          <span class="when_where">Location and Time</span><br/>
+          <span class="event_date">
+            May 21,
+            2011<br/>
+            10:00 - Noon<br/>
+            Batavia Public Library
+          </span>
+        </div>
+        <p style="clear: both;" />
+      </div>
 
     
       <div class="event">
