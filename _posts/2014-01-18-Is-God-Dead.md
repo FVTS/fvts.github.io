@@ -19,6 +19,6 @@ speaker: Nicholas Piotrowski
 speaker_image: images/Nicholas.jpg
 bio: Nicholas is a resident of Lawrence and a professor at Crossroads Bible College. He earned his PhD at Wheaton College where he studied the way 1st century communities used sacred traditions to form their self-identity and navigate their cultural milieu.
 
-disclaimer: This program is not sponsored by the Indianapolis Public Library.
+#disclaimer: This program is not sponsored by the Indianapolis Public Library.
 
 ---
