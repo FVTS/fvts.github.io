@@ -122,10 +122,14 @@ td {
   border-right: 2px solid white;
 }
 /* line 94, ../_sass/style.sass */
+#header li:hover {
+  background: #c9c9c9;
+}
+/* line 96, ../_sass/style.sass */
 #header li:hover a, #header li.selected a {
   color: black;
 }
-/* line 96, ../_sass/style.sass */
+/* line 98, ../_sass/style.sass */
 #header ul a {
   color: white;
   margin: 0px 20px;
@@ -156,7 +160,7 @@ td {
 /*left: 0; */
 /*top: 0; */
 /*} */
-/* line 128, ../_sass/style.sass */
+/* line 130, ../_sass/style.sass */
 #logo_w1 {
   font-family: Copperplate, "Copperplate Gothic Light", Verdana, Arial, Helvetica, sans-serif;
   font-size: 26px;
@@ -169,35 +173,35 @@ td {
   top: 44px;
 }
 
-/* line 139, ../_sass/style.sass */
+/* line 141, ../_sass/style.sass */
 #logo_w2 {
   left: 54px;
   top: 44px;
 }
 
-/* line 143, ../_sass/style.sass */
+/* line 145, ../_sass/style.sass */
 #header_text {
   left: 43px;
   position: absolute;
   top: 90px;
   width: 265px;
 }
-/* line 148, ../_sass/style.sass */
+/* line 150, ../_sass/style.sass */
 #header_text p {
   color: white;
   font-size: 18px;
   text-shadow: 2px 2px 2px black;
 }
-/* line 152, ../_sass/style.sass */
+/* line 154, ../_sass/style.sass */
 #header_text a {
   color: #28556b;
 }
-/* line 154, ../_sass/style.sass */
+/* line 156, ../_sass/style.sass */
 #header_text a:hover {
   color: #c77e0c;
 }
 
-/* line 157, ../_sass/style.sass */
+/* line 159, ../_sass/style.sass */
 #header img {
   position: absolute;
   right: 24px;
@@ -206,14 +210,14 @@ td {
 }
 
 /********************* Content ************************** */
-/* line 165, ../_sass/style.sass */
+/* line 167, ../_sass/style.sass */
 #container {
   margin: 0px auto;
   text-align: left;
   width: 717px;
 }
 
-/* line 170, ../_sass/style.sass */
+/* line 172, ../_sass/style.sass */
 #content {
   background-image: url(../images/content_bg.gif);
   width: 717px;
@@ -221,83 +225,83 @@ td {
   min-height: 463px;
   _height: 463px;
 }
-/* line 176, ../_sass/style.sass */
+/* line 178, ../_sass/style.sass */
 #content li {
   margin: 3px 15px;
   padding-left: 0;
 }
-/* line 179, ../_sass/style.sass */
+/* line 181, ../_sass/style.sass */
 #content p {
   text-align: justify;
 }
 
-/* line 182, ../_sass/style.sass */
+/* line 184, ../_sass/style.sass */
 .home_date, .sidebar_date, .event_date {
   display: none;
 }
 
-/* line 185, ../_sass/style.sass */
+/* line 187, ../_sass/style.sass */
 #left .home_date {
   display: inline;
   font-weight: bold;
 }
 
-/* line 189, ../_sass/style.sass */
+/* line 191, ../_sass/style.sass */
 #right .sidebar_date {
   display: inline;
 }
 
-/* line 193, ../_sass/style.sass */
+/* line 195, ../_sass/style.sass */
 #full .event_date {
   display: inline;
 }
-/* line 195, ../_sass/style.sass */
+/* line 197, ../_sass/style.sass */
 #full .full_address {
   display: none;
 }
 
-/* line 198, ../_sass/style.sass */
+/* line 200, ../_sass/style.sass */
 .event {
   position: relative;
   clear: both;
 }
-/* line 201, ../_sass/style.sass */
+/* line 203, ../_sass/style.sass */
 .event h2, .event h3 {
   margin: 0;
 }
-/* line 203, ../_sass/style.sass */
+/* line 205, ../_sass/style.sass */
 .event h4 {
   margin-bottom: 7px;
 }
-/* line 205, ../_sass/style.sass */
+/* line 207, ../_sass/style.sass */
 .event div {
   float: left;
   padding-right: 12px;
 }
-/* line 208, ../_sass/style.sass */
+/* line 210, ../_sass/style.sass */
 .event div.event_pic {
   left: 0;
   top: 0;
 }
-/* line 211, ../_sass/style.sass */
+/* line 213, ../_sass/style.sass */
 .event div.event_description {
   left: 151px;
   top: 0;
   width: 390px;
 }
-/* line 215, ../_sass/style.sass */
+/* line 217, ../_sass/style.sass */
 .event div.event_location {
   max-width: 130px;
   right: 0;
 }
 
-/* line 219, ../_sass/style.sass */
+/* line 221, ../_sass/style.sass */
 #left, #right, #full {
   min-height: 413px;
   _height: 413px;
 }
 
-/* line 223, ../_sass/style.sass */
+/* line 225, ../_sass/style.sass */
 #left {
   float: left;
   width: 428px;
@@ -307,68 +311,68 @@ td {
   display: inline;
   border-right: white 2px solid;
 }
-/* line 231, ../_sass/style.sass */
+/* line 233, ../_sass/style.sass */
 #left a {
   color: #28556b;
 }
-/* line 233, ../_sass/style.sass */
+/* line 235, ../_sass/style.sass */
 #left a:hover {
   color: #7a4417;
 }
-/* line 235, ../_sass/style.sass */
+/* line 237, ../_sass/style.sass */
 #left #staytuned {
   position: absolute;
   top: 0;
   left: 3px;
   z-index: 100;
 }
-/* line 240, ../_sass/style.sass */
+/* line 242, ../_sass/style.sass */
 #left h2 {
   font-size: 14px;
 }
-/* line 242, ../_sass/style.sass */
+/* line 244, ../_sass/style.sass */
 #left h4, #left .event_pic, #left .when_where {
   display: none;
 }
 
-/* line 245, ../_sass/style.sass */
+/* line 247, ../_sass/style.sass */
 #right {
   float: right;
   width: 210px;
   padding: 0px 20px 20px 20px;
   margin-top: 10px;
 }
-/* line 250, ../_sass/style.sass */
+/* line 252, ../_sass/style.sass */
 #right .event_pic {
   float: left;
   margin-right: 5px;
   margin-bottom: 5px;
 }
-/* line 254, ../_sass/style.sass */
+/* line 256, ../_sass/style.sass */
 #right img {
   float: right;
 }
-/* line 256, ../_sass/style.sass */
+/* line 258, ../_sass/style.sass */
 #right a {
   color: #d17428;
   text-decoration: none;
   font-weight: bold;
 }
 
-/* line 261, ../_sass/style.sass */
+/* line 263, ../_sass/style.sass */
 #full a {
   color: #d17428;
   text-decoration: none;
   font-weight: bold;
 }
 
-/* line 266, ../_sass/style.sass */
+/* line 268, ../_sass/style.sass */
 #right a:hover, #full a:hover {
   color: black;
   text-decoration: underline;
 }
 
-/* line 270, ../_sass/style.sass */
+/* line 272, ../_sass/style.sass */
 #right h3 {
   /*color:#85a157; */
   color: #7a4417;
@@ -378,83 +382,83 @@ td {
   margin: 10px 0px 15px 0px;
 }
 
-/* line 278, ../_sass/style.sass */
+/* line 280, ../_sass/style.sass */
 #full {
   float: left;
   margin: 10px 27px 0 27px;
   padding: 0px 10px 30px 0;
   display: inline;
 }
-/* line 283, ../_sass/style.sass */
+/* line 285, ../_sass/style.sass */
 #full h1 {
   color: #7a4417;
   font-size: 150%;
   margin-top: 30px;
   text-align: center;
 }
-/* line 288, ../_sass/style.sass */
+/* line 290, ../_sass/style.sass */
 #full h2 {
   margin-top: 20px;
 }
-/* line 290, ../_sass/style.sass */
+/* line 292, ../_sass/style.sass */
 #full h3 {
   font-size: 100%;
   font-style: italic;
   color: #444444;
 }
 
-/* line 295, ../_sass/style.sass */
+/* line 297, ../_sass/style.sass */
 #photos a {
   margin-right: 14px;
 }
 
-/* line 298, ../_sass/style.sass */
+/* line 300, ../_sass/style.sass */
 #follow_us {
   position: absolute;
   bottom: 15px;
   right: 55px;
 }
 
-/* line 303, ../_sass/style.sass */
+/* line 305, ../_sass/style.sass */
 #map, .time, .location {
   font-size: smaller;
 }
 
-/* line 306, ../_sass/style.sass */
+/* line 308, ../_sass/style.sass */
 .event {
   margin: 2em 0.3em;
   min-height: 66px;
   _height: 66px;
 }
 
-/* line 312, ../_sass/style.sass */
+/* line 314, ../_sass/style.sass */
 #speaker img {
   /*height: 102px; */
   padding: 10px 10px 10px 0;
   float: left;
 }
-/* line 316, ../_sass/style.sass */
+/* line 318, ../_sass/style.sass */
 #speaker > p {
   margin-top: 5px;
 }
 
-/* line 319, ../_sass/style.sass */
+/* line 321, ../_sass/style.sass */
 #bio_switch {
   display: none;
   font-size: smaller;
 }
 
-/* line 323, ../_sass/style.sass */
+/* line 325, ../_sass/style.sass */
 .when_where {
   width: 12em;
 }
 
-/* line 326, ../_sass/style.sass */
+/* line 328, ../_sass/style.sass */
 span.when_where {
   font-weight: bold;
 }
 
-/* line 329, ../_sass/style.sass */
+/* line 331, ../_sass/style.sass */
 .event_description {
   width: 425px;
   text-align: justify;
@@ -463,7 +467,7 @@ span.when_where {
 /*#previous_events .event_description { width: auto; } */
 /*#previous_events .when_where { display: none; } */
 /********************* Footer ************************** */
-/* line 338, ../_sass/style.sass */
+/* line 340, ../_sass/style.sass */
 #footerline {
   clear: both;
   background-image: url(../images/footer_bg.gif);
@@ -471,7 +475,7 @@ span.when_where {
   height: 10px;
 }
 
-/* line 344, ../_sass/style.sass */
+/* line 346, ../_sass/style.sass */
 #footer {
   color: white;
   padding: 20px 0px;
@@ -479,7 +483,7 @@ span.when_where {
   text-shadow: 1px 1px 4px #bbbbbb;
   width: 717px;
 }
-/* line 350, ../_sass/style.sass */
+/* line 352, ../_sass/style.sass */
 #footer a {
   color: white;
 }
