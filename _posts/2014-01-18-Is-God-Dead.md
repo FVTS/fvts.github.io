@@ -2,8 +2,8 @@
 
 layout: post
 
-long_date: Saturday, January 28th, 10:30—12:30 a.m.
-short_date: January 28, 2014<br>10:30—12:30am
+long_date: Saturday, January 18th, 10:30—12:30 a.m.
+short_date: January 18, 2014<br>10:30—12:30am
 
 location: Lawrence Public Library
 address: 7898 N. Hague Road<br/>Indianapolis, Indiana, 46256
@@ -13,7 +13,7 @@ map: https://www.google.com/maps/preview?authuser=0#!q=Indianapolis+Public+Libra
 title: Is God Dead?
 subtitle: A Critical Reassessment of Friedrich Nietzsche's Famous Dictum
 description: At the end of the 19th century Friedrich Nietzsche proclaimed that “God is dead.” Throughout the 20th century Western thinkers in every discipline—from political theory to the fine arts—have taken up this “death of God” motif. What did Nietzsche mean by this, and how has he been understood over the subsequent 100+ years? The time seems ripe to reevaluate Nietzsche’s famous pronouncement in the light of more than a century’s worth of retrospect. Join us on January 18th at 10:30 a.m. at the Lawrence Public Library for a lecture and open discussion/Q&A as we consider what it means that “God is dead.” All are welcome!
-event_image: images/Looking_into_the_abyss-small.jpg
+event_image: images/Is-God-Dead.jpg
 
 speaker: Nicholas Piotrowski
 speaker_image: images/Nicholas.jpg
