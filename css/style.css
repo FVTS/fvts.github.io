@@ -488,24 +488,26 @@ span.when_where {
   color: white;
 }
 
-/**************/
+/************ */
 /* 404 Styles */
-/**************/
+/************ */
+/* line 358, ../_sass/style.sass */
 #My404 {
-    background: #ccc;
-    border: 2px solid white;
-    border-radius: 10px;
-    margin: 100px 150px 0;
-    padding: 12px;
+  background: #cccccc;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 100px 150px 0;
+  padding: 12px;
 }
-#My404 h2,
-#My404 a {
-    color: #7a4417;
-    font-weight: bold;
-    margin: 0;
-    text-decoration: none;
-    text-align: center;
+/* line 365, ../_sass/style.sass */
+#My404 h2, #My404 a {
+  color: #7a4417;
+  font-weight: bold;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
 }
+/* line 371, ../_sass/style.sass */
 #My404 h2 {
-    font-size: 200%;
+  font-size: 200%;
 }
