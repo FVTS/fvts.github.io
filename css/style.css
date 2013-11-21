@@ -487,3 +487,25 @@ span.when_where {
 #footer a {
   color: white;
 }
+
+/**************/
+/* 404 Styles */
+/**************/
+#My404 {
+    background: #ccc;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 100px 150px 0;
+    padding: 12px;
+}
+#My404 h2,
+#My404 a {
+    color: #7a4417;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+}
+#My404 h2 {
+    font-size: 200%;
+}
