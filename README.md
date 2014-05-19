@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/fvts/fvts.github.io.png?label=ready&title=Ready)](https://waffle.io/fvts/fvts.github.io)
 fvts.github.io
 ==============
 
