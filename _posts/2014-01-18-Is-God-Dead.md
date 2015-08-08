@@ -3,7 +3,7 @@
 layout: post
 
 long_date: Saturday, January 18th, 10:30—12:30 a.m.
-short_date: January 18, 2014<br>10:30—12:30am
+short_date: January 18, 2014<br>10:30am — noon
 
 location: Lawrence Public Library
 address: 7898 N. Hague Road<br/>Indianapolis, Indiana, 46256
