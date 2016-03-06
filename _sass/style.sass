@@ -53,10 +53,13 @@ h3
     /*margin-left: 13px;
     font-style: italic
 
+
 td
   padding-right: 7px
   padding-top: 7px
   vertical-align: top
+  &:last-child
+    padding-right: 0
 
 /********************** Header **************************
 
@@ -84,15 +87,13 @@ td
     display: inline
     padding: 5px 25px 12px
     margin: 0
-    &:hover, &.selected
+    &.selected
       /*background: #3d4a28;
       /*background: #caf584;
       background: #e7e7de
       color: #ccc
       border-left: 2px solid #fff
       border-right: 2px solid #fff
-    &:hover
-      background: #c9c9c9
     &:hover a, &.selected a
       color: #000
   ul a
@@ -102,14 +103,14 @@ td
     text-shadow: 0 1px 1px #444
 
 /*#header li:hover {
- *	background-color: #DE9D68;
- *	padding: 5px 25px 8px;
+ *  background-color: #DE9D68;
+ *  padding: 5px 25px 8px;
  *}
 
 /*#header li.selected:hover {
- *	background: #e7e7de;
- *	padding: 5px 27px 12px;
- *	color: #ccc;
+ *  background: #e7e7de;
+ *  padding: 5px 27px 12px;
+ *  color: #ccc;
  *}
 
 /*#header ul a:hover {
@@ -219,6 +220,12 @@ td
     &.event_location
       max-width: 130px
       right: 0
+  .time
+    left: 90px
+    max-width: 130px
+    padding: 3px 0
+    position: relative
+    top: 3px
 
 #left, #right, #full
   min-height: 413px
@@ -315,9 +322,9 @@ td
 
 #speaker
   img
-    /*height: 102px;
-    padding: 10px 10px 10px 0
     float: left
+    max-width: 115px
+    padding: 10px 10px 10px 0
   > p
     margin-top: 5px
 
@@ -369,7 +376,7 @@ span.when_where
   margin: 100px 150px 0
   padding: 12px
 
-  h2, a 
+  h2, a
     color: #7a4417
     font-weight: bold
     margin: 0
@@ -377,4 +384,3 @@ span.when_where
     text-align: center
   h2
     font-size: 200%
-
