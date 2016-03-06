@@ -11,7 +11,7 @@ map: https://www.google.com/maps/preview?authuser=0#!q=Indianapolis+Public+Libra
 
 title: When the Lights Go Down
 subtitle: Cultural Intersection with Film
-description: Movies are the stories of the 21st century. Every film bears the imprint of the director, screenwriter, and studio. Helping people understand what they are watching—actively engaging movies on the screen—is a positive educational practice. Join Dr. Mark Eckel as he tells stories about his own movie-watching experiences and explains why he thinks interpreting movies is so important. August 29th, 10:30am to 12noon; Lawrence Public Library; lecture/discussion format. All are welcome!
+description: Movies are the stories of the 21st century. Every film bears the imprint of the director, screenwriter, and studio. Helping people understand what they are watching—actively engaging movies on the screen—is a positive educational practice. Join Dr. Mark Eckel as he tells stories about his own movie-watching experiences and explains why he thinks interpreting movies is so important. August 29th, 10:30am to 12pm (noon); Lawrence Public Library; lecture/discussion format. All are welcome!
 
 event_image: images/Movie Book.jpg
 
